@@ -8,6 +8,7 @@ h1{
     color: goldenrod;
     border-radius: 10px;
     border-style: dotted;
+    font-family: cursive;
 }
 
 .formularios fieldset{
@@ -20,4 +21,12 @@ body{
     background-image: url(../imagem/goku.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+button{
+    background-color: darkmagenta;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
 }

@@ -24,9 +24,24 @@ body{
 }
 
 button{
-    background-color: darkmagenta;
+    background-color: rgb(165, 0, 186);
     width: 120px;
     height: 50px;
     border-radius: 10px;
     color: white;
+}
+
+#form1  input{ 
+    width: 900px;
+    height: 18px;
+    border-radius: 5px;
+}
+
+select{
+    width: 300px;
+    height: 18px;
+}
+
+fieldset{
+    border: solid gold 3px;
 }

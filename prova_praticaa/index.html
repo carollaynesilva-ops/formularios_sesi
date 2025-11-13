@@ -25,14 +25,43 @@
             <label for="address">Endereço: </label>
             <input type="text" name="address"><br><br>
 
-            <label for="origin">Planeta de Origem:</label>
-            <select name="origin" id="planeta">
+            <label for="origin">Planeta de Origem:</label><br><br>
+            <select name="origin" class="do_select">
                 <option>Planeta Terra</option>
                 <option>Planeta Krypton</option>
                 <option>Planeta NameK</option>
                 <option>Planeta Vegeta</option>
+                <option>outros</option>
             </select>
-           
+        </fieldset>
+    </form>
+
+    <form id="dados_extras">
+        <fieldset>
+            <legend>Dados Extras</legend>
+
+            <label for="race">Raça do Universo 7 preferida:</label>
+            <select name="race" class="do_select">
+                <option>Terráqueo</option>
+                <option >Sayajin</option>
+                <option >NameKeijin</option>
+                <option >Androide</option>
+                <option >outros</option>
+            </select><br><br>
+
+            <label for="job">Trabalho:</label>
+
+            <input type="radio" name="self-employed">
+            <label for="self-employed">Autonomo</label>
+
+            <input type="radio" name="employee">
+            <label for="employee">Empregado CLT</label>
+
+            <input type="radio" name="businessperson">
+            <label for="businessperson">Empresário</label>
+
+            <input type="radio" name="goku">
+            <label for="goku">Tipo Goku</label>
 
 
 

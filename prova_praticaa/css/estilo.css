@@ -10,3 +10,14 @@ h1{
     border-style: dotted;
 }
 
+.formularios fieldset{
+    border-color: gold;
+    color: white;
+   
+}
+
+body{
+    background-image: url(../imagem/goku.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}

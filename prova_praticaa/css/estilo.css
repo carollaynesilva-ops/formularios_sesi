@@ -1,4 +1,12 @@
-/* body{
-    background-color: indigo;
-} */
+body{
+    background-color:indigo;
+}
+
+h1{
+    text-align: center;
+    background-color: darkmagenta;
+    color: goldenrod;
+    border-radius: 10px;
+    border-style: dotted;
+}
 
